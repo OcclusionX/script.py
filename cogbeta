@@ -1,0 +1,109 @@
+@OcclusionX ➜ /workspaces/codespaces-blank $ # This is my basketball statistics tracker.# This is my basketball statistics tracker.
+@OcclusionX ➜ /workspaces/codespaces-blank $ import requests
+bash: import: command not found
+API.
+API_URL = "https://api.example.com/v1/basketball/reads/p18"
+
+# Make the request.
+response = requests.get(API_URL)
+
+# Check the response status co@OcclusionX ➜ /workspaces/codespaces-blank $ import json
+de.
+if response.status_code == 200:
+    # Get the bash: import: command not found
+response data.
+    reads = json.loads(response.content)
+
+    # Print the number of "P18" reads.
+    @OcclusionX ➜ /workspaces/codespaces-blank $ 
+print("The number of 'P18' reads is:", reads["total"])
+
+else:
+    print("Error:", response.status_code)@OcclusionX ➜ /workspaces/codespaces-blank $ # Set the URL of the API.
+@OcclusionX ➜ /workspaces/codespaces-blank $ API_URL = "https://api.example.com/v1/basketball/reads/p18"
+bash: API_URL: command not found
+@OcclusionX ➜ /workspaces/codespaces-blank $ 
+@OcclusionX ➜ /workspaces/codespaces-blank $ # Make the request.
+@OcclusionX ➜ /workspaces/codespaces-blank $ response = requests.get(API_URL)
+bash: syntax error near unexpected token `('
+@OcclusionX ➜ /workspaces/codespaces-blank $ 
+@OcclusionX ➜ /workspaces/codespaces-blank $ # Check the response status code.
+@OcclusionX ➜ /workspaces/codespaces-blank $ if response.status_code == 200:
+>     # Get the response data.
+>     reads = json.loads(response.content)
+bash: syntax error near unexpected token `('
+@OcclusionX ➜ /workspaces/codespaces-blank $ 
+@OcclusionX ➜ /workspaces/codespaces-blank $     # Print the number of "P18" reads.
+@OcclusionX ➜ /workspaces/codespaces-blank $     print("The number of 'P18' reads is:", reads["total"])
+bash: syntax error near unexpected token `"The number of 'P18' reads is:",'
+@OcclusionX ➜ /workspaces/codespaces-blank $ 
+@OcclusionX ➜ /workspaces/codespaces-blank $ else:
+bash: else:: command not found
+@OcclusionX ➜ /workspaces/codespaces-blank $     print("Error:", response.status_code)import requests
+bash: syntax error near unexpected token `"Error:",'
+API.
+API_URL = "https://api.example.com/v1/basketball/reads"
+
+# Set the parameters for the request.
+params = {
+    "type": "space"
+}
+
+# Make the reque@OcclusionX ➜ /workspaces/codespaces-blank $ import json
+st.
+response = requests.get(API_URL, params=paramsbash: import: command not found
+)
+
+# Check the response status code.
+if response.status_code == 200:
+    # Get the response data.
+  @OcclusionX ➜ /workspaces/codespaces-blank $ 
+  reads = json.loads(response.content)
+
+    # Print the number of "Space Reads".
+    print("The number of 'Space Reads' is:", reads["total"])
+
+    # P@OcclusionX ➜ /workspaces/codespaces-blank $ # Set the URL of the API.
+rint the number of "Live Dribble" reads.
+    print("The number of 'Live Dribble' reads is:", reads["live_dribble"])
+
+    # Print the number of "On Catch" reads.
+    print("The number of 'On Catch' reads is:", reads["on_catch"])
+
+else:
+    print("Error:", response.status_code)@OcclusionX ➜ /workspaces/codespaces-blank $ API_URL = "https://api.example.com/v1/basketball/reads"
+bash: API_URL: command not found
+@OcclusionX ➜ /workspaces/codespaces-blank $ 
+@OcclusionX ➜ /workspaces/codespaces-blank $ # Set the parameters for the request.
+@OcclusionX ➜ /workspaces/codespaces-blank $ params = {
+bash: params: command not found
+@OcclusionX ➜ /workspaces/codespaces-blank $     "type": "space"
+bash: type:: command not found
+@OcclusionX ➜ /workspaces/codespaces-blank $ }
+bash: syntax error near unexpected token `}'
+@OcclusionX ➜ /workspaces/codespaces-blank $ 
+@OcclusionX ➜ /workspaces/codespaces-blank $ # Make the request.
+@OcclusionX ➜ /workspaces/codespaces-blank $ response = requests.get(API_URL, params=params)
+bash: syntax error near unexpected token `('
+@OcclusionX ➜ /workspaces/codespaces-blank $ 
+@OcclusionX ➜ /workspaces/codespaces-blank $ # Check the response status code.
+@OcclusionX ➜ /workspaces/codespaces-blank $ if response.status_code == 200:
+>     # Get the response data.
+>     reads = json.loads(response.content)
+bash: syntax error near unexpected token `('
+@OcclusionX ➜ /workspaces/codespaces-blank $ 
+@OcclusionX ➜ /workspaces/codespaces-blank $     # Print the number of "Space Reads".
+@OcclusionX ➜ /workspaces/codespaces-blank $     print("The number of 'Space Reads' is:", reads["total"])
+bash: syntax error near unexpected token `"The number of 'Space Reads' is:",'
+@OcclusionX ➜ /workspaces/codespaces-blank $ 
+@OcclusionX ➜ /workspaces/codespaces-blank $     # Print the number of "Live Dribble" reads.
+@OcclusionX ➜ /workspaces/codespaces-blank $     print("The number of 'Live Dribble' reads is:", reads["live_dribble"])
+bash: syntax error near unexpected token `"The number of 'Live Dribble' reads is:",'
+@OcclusionX ➜ /workspaces/codespaces-blank $ 
+@OcclusionX ➜ /workspaces/codespaces-blank $     # Print the number of "On Catch" reads.
+@OcclusionX ➜ /workspaces/codespaces-blank $     print("The number of 'On Catch' reads is:", reads["on_catch"])
+bash: syntax error near unexpected token `"The number of 'On Catch' reads is:",'
+@OcclusionX ➜ /workspaces/codespaces-blank $ 
+@OcclusionX ➜ /workspaces/codespaces-blank $ else:
+bash: else:: command not found
+@OcclusionX ➜ /workspaces/codespaces-blank $     print("Error:", response.status_code)
